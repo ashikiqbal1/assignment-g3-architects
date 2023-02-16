@@ -273,5 +273,33 @@ footer p{
         text-align: center;
         width: 450px;
     }
-    
+    .features-container{
+        margin-left: 0px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .facts-container{
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .facts-item{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .sponspor-container{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sponspor-text{
+        padding: 0px;
+    }
+    .sponspor-item{
+        flex-direction: column;
+        gap: 30px;
+    }
+    footer{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
